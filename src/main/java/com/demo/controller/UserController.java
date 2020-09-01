@@ -18,6 +18,7 @@ public class UserController extends Swagger2 {
     @RequestMapping(value = "/")
     public String index(String name) {
 
+
         return "hello "+ name;
     }
 }
